@@ -31,27 +31,21 @@ $$
 **Ví Dụ**: Cho một tập dữ liệu mẫu: **[2, 4, 4, 4, 5, 5, 7, 9]**
 
 1. Tính giá trị trung bình mẫu $\overline{x}$:
-    $$
-    \overline{x} = \frac{2 + 4 + 4 + 4 + 5 + 5 + 7 + 9}{8} = 5
-    $$
+
+$$\overline{x} = \frac{2 + 4 + 4 + 4 + 5 + 5 + 7 + 9}{8} = 5$$
 
 2. Tính các giá trị $(x_i - \overline{x})^2$:
-    $$
-    (2-5)^2, (4-5)^2, (4-5)^2, (4-5)^2, (5-5)^2, (5-5)^2, (7-5)^2, (9-5)^2
-    $$
-    $$
-    = 9, 1, 1, 1, 0, 0, 4, 16
-    $$
+
+$$(2-5)^2, (4-5)^2, (4-5)^2, (4-5)^2, (5-5)^2, (5-5)^2, (7-5)^2, (9-5)^2$$
+$$= 9, 1, 1, 1, 0, 0, 4, 16$$
 
 3. Tính tổng các giá trị trên và chia cho $n-1$:
-    $$
-    \frac{9 + 1 + 1 + 1 + 0 + 0 + 4 + 16}{7} = \frac{32}{7} \approx 4.57
-    $$
+
+$$\frac{9 + 1 + 1 + 1 + 0 + 0 + 4 + 16}{7} = \frac{32}{7} \approx 4.57$$
 
 4. Lấy căn bậc hai của kết quả trên để có độ lệch chuẩn mẫu:
-    $$
-    s \approx \sqrt{4.57} \approx 2.14
-    $$
+
+$$s \approx \sqrt{4.57} \approx 2.14$$
 
 Vậy **độ lệch chuẩn mẫu của tập dữ liệu** trên là khoảng ***2.14***.
 
