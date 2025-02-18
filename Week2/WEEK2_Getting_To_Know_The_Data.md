@@ -98,9 +98,9 @@ $$mean - mode = 3 \times (mean - median)$$
 
 Positively skewed data has a long tail on the right, while negatively skewed data has a long tail on the left.
 
-
-
-![alt text](img/image.png)
+<div style="text-align:center;">
+    <img src="img/image.png" alt="Data Distribution">
+</div>
 
 **Specific Visualization Methods**
 - **Boxplots** $\rightarrow$ display the five-number summary and outliers
@@ -108,19 +108,19 @@ Positively skewed data has a long tail on the right, while negatively skewed dat
 
 <center>
 
-![alt text](img/image-1.png)
-<caption>Histogram</caption>
+<div style="text-align:center;">
+    <img src="img/image-1.png" alt="Histogram">
+</div>
 
 </center>
-
 
 - **Quantile Plots** $\rightarrow$ show all of the data's behavior and unusual occurrences
 
 <center>
 
-![alt text](img/image-2.png)
-<caption>Quantile plot</caption>
-
+<div style="text-align:center;">
+    <img src="img/image-2.png" alt="Quantile plot">
+</div>
 
 </center>
 
@@ -128,9 +128,9 @@ Positively skewed data has a long tail on the right, while negatively skewed dat
 
 <center>
 
-![alt text](img/image-3.png)
-<caption>Quantile-quantile (q-q) plot</caption>
-
+<div style="text-align:center;">
+    <img src="img/image-3.png" alt="Quantile-quantile (q-q) plot">
+</div>
 
 </center>
 
@@ -138,8 +138,9 @@ Positively skewed data has a long tail on the right, while negatively skewed dat
 
 <center>
 
-![alt text](img/image-4.png)
-<caption>Scatter plot</caption>
+<div style="text-align:center;">
+    <img src="img/image-4.png" alt="Scatter plot">
+</div>
 
 </center>
 
@@ -147,7 +148,9 @@ Positively skewed data has a long tail on the right, while negatively skewed dat
 
 <center>
 
-![alt text](img/image-5.png)
+<div style="text-align:center;">
+    <img src="img/image-5.png" alt="Positive and Negative Correlated Data">
+</div>
 
 </center>
 
@@ -155,7 +158,9 @@ Positively skewed data has a long tail on the right, while negatively skewed dat
 
 <center>
 
-![alt text](img/image-6.png)
+<div style="text-align:center;">
+    <img src="img/image-6.png" alt="Uncorrelated Data">
+</div>
 
 </center>
 
@@ -180,10 +185,9 @@ $\rightarrow$ maps dimension values to pixels
 
 <center>
 
-![alt text](img/image-7.png)
-<caption>Pixel-Oriented Visualization Techniques</caption>
-
-![alt text](img/image-8.png)
+<div style="text-align:center;">
+    <img src="img/image-7.png" alt="Pixel-Oriented Visualization Techniques">
+</div>
 
 </center>
 
@@ -192,23 +196,31 @@ $\rightarrow$ maps dimension values to pixels
 **Geometric Projection Visualization Techniques** 
 $\rightarrow$ uses transformations and projections of the data. Some methods include:
 - **Direct (Data) Visualization**
+
 <center>
 
-![alt text](img/image-9.png)
+<div style="text-align:center;">
+    <img src="img/image-9.png" alt="Direct Data Visualization">
+</div>
 
 </center>
 
 - **Scatterplot and scatterplot matrices**
+
 <center>
 
-![alt text](img/image-10.png)
+<div style="text-align:center;">
+    <img src="img/image-10.png" alt="Scatterplot and scatterplot matrices">
+</div>
 
 </center>
 
 - **Landscapes** $\rightarrow$ visualizes data as a perspective landscape. The data needs to be transformed into a (possibly artificial) 2D spatial representation which preserves the characteristics of the data
 <center>
 
-![alt text](img/image-11.png)
+<div style="text-align:center;">
+    <img src="img/image-11.png" alt="Landscapes Visualization">
+</div>
 
 </center>
 
@@ -216,9 +228,17 @@ $\rightarrow$ uses transformations and projections of the data. Some methods inc
 
 <center>
 
-![alt text](img/image-12.png)
+<div style="text-align:center;">
+    <img src="img/image-12.png" alt="Parallel Coordinates">
+</div>
 
-![alt text](img/image-13.png)
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-13.png" alt="Parallel Coordinates">
+</div>
 
 </center>
 
@@ -230,7 +250,9 @@ $\rightarrow$ represents data values as features of icons (e.g., Chernoff faces,
 
 <center>
 
-![alt text](img/image-14.png)
+<div style="text-align:center;">
+    <img src="img/image-14.png" alt="Chernoff Faces">
+</div>
 
 </center>
 
@@ -238,7 +260,9 @@ $\rightarrow$ represents data values as features of icons (e.g., Chernoff faces,
 
 <center>
 
-![alt text](img/image-15.png)
+<div style="text-align:center;">
+    <img src="img/image-15.png" alt="Stick Figures">
+</div>
 
 </center>
 
@@ -249,9 +273,17 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-16.png)
+<div style="text-align:center;">
+    <img src="img/image-16.png" alt="Dimensional Stacking">
+</div>
 
-![alt text](img/image-17.png)
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-17.png" alt="Dimensional Stacking">
+</div>
 
 </center>
 
@@ -259,19 +291,27 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-18.png)
+<div style="text-align:center;">
+    <img src="img/image-18.png" alt="Worlds-within-Worlds">
+</div>
 
 </center>
-
-
 
 - **Tree-Maps** $\rightarrow$ hierarchical partitioning of the screen
 
 <center>
 
-![alt text](img/image-19.png)
+<div style="text-align:center;">
+    <img src="img/image-19.png" alt="Tree-Maps">
+</div>
 
-![alt text](img/image-20.png)
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-20.png" alt="Tree-Maps">
+</div>
 
 </center>
 
@@ -279,16 +319,19 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-21.png)
+<div style="text-align:center;">
+    <img src="img/image-21.png" alt="InfoCubes">
+</div>
 
 </center>
-
 
 - **Cone Trees** $\rightarrow$ 3D visualization of hierarchical information
 
 <center>
 
-![alt text](img/image-22.png)
+<div style="text-align:center;">
+    <img src="img/image-22.png" alt="Cone Trees">
+</div>
 
 </center>
 
@@ -296,10 +339,11 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-23.png)
+<div style="text-align:center;">
+    <img src="img/image-23.png" alt="Visualizing Complex Data">
+</div>
 
 </center>
-
 
 ### **5. Measuring Similarity and Dissimilarity**
 - **Similarity** $\rightarrow$ numerical measure of how alike two data objects are. Higher values indicate greater similarity and often falls in the range $[0, 1]$
@@ -310,9 +354,17 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-24.png)
+<div style="text-align:center;">
+    <img src="img/image-24.png" alt="Data Matrix vs. Dissimilarity Matrix">
+</div>
 
-![alt text](img/image-29.png)
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-29.png" alt="Data Matrix vs. Dissimilarity Matrix">
+</div>
 
 </center>
 
@@ -321,7 +373,9 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-25.png)
+<div style="text-align:center;">
+    <img src="img/image-25.png" alt="Proximity Measures for Nominal Data">
+</div>
 
 </center>
 
@@ -329,9 +383,17 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-26.png)
+<div style="text-align:center;">
+    <img src="img/image-26.png" alt="Proximity Measures for Binary Data">
+</div>
 
-![alt text](img/image-27.png)
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-27.png" alt="Proximity Measures for Binary Data">
+</div>
 
 </center>
 
@@ -339,7 +401,9 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-28.png)
+<div style="text-align:center;">
+    <img src="img/image-28.png" alt="Proximity Measures for Numeric Data">
+</div>
 
 </center>
 
@@ -350,28 +414,54 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
     <center>
 
-    ![alt text](img/image-30.png)
+<div style="text-align:center;">
+    <img src="img/image-30.png" alt="Minkowski Distance">
+</div>
 
-    ![alt text](img/image-31.png)
+</center>
 
-    ![alt text](img/image-32.png)
-    </center>
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-31.png" alt="Minkowski Distance">
+</div>
+
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-32.png" alt="Minkowski Distance">
+</div>
+
+</center>
 
     - **Cosine Similarity** $\rightarrow$ text/document similarity. Measures the cosine of the angle between two vectors.
 
     <center>
 
-    ![alt text](img/image-35.png)
+<div style="text-align:center;">
+    <img src="img/image-35.png" alt="Cosine Similarity">
+</div>
 
-    ![alt text](img/image-36.png)
-    </center>
+</center>
+
+<center>
+
+<div style="text-align:center;">
+    <img src="img/image-36.png" alt="Cosine Similarity">
+</div>
+
+</center>
 
 
 - **Ordinal** $\rightarrow$ rank-based methods
 
 <center>
 
-![alt text](img/image-33.png)
+<div style="text-align:center;">
+    <img src="img/image-33.png" alt="Proximity Measures for Ordinal Data">
+</div>
 
 </center>
 
@@ -379,10 +469,11 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 <center>
 
-![alt text](img/image-34.png)
+<div style="text-align:center;">
+    <img src="img/image-34.png" alt="Proximity Measures for Mixed Type Data">
+</div>
 
 </center>
-
 
 ### **Key Takeaways**
 
