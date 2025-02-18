@@ -98,71 +98,61 @@ $$mean - mode = 3 \times (mean - median)$$
 
 Positively skewed data has a long tail on the right, while negatively skewed data has a long tail on the left.
 
-<div style="text-align:center;">
-    <img src="img/image.png" alt="Data Distribution">
-</div>
+<center>
+
+<img src="img/image.png" alt="Data Distribution">
+
+</center>
 
 **Specific Visualization Methods**
 - **Boxplots** $\rightarrow$ display the five-number summary and outliers
 - **Histograms** $\rightarrow$ show the distribution of frequencies
 
+<center>
 
+<img src="img/image-1.png" alt="Histogram">
 
-<div style="text-align:center;">
-    <img src="img/image-1.png" alt="Histogram">
-</div>
-
-
+</center>
 
 - **Quantile Plots** $\rightarrow$ show all of the data's behavior and unusual occurrences
 
+<center>
 
+<img src="img/image-2.png" alt="Quantile plot">
 
-<div style="text-align:center;">
-    <img src="img/image-2.png" alt="Quantile plot">
-</div>
-
-
+</center>
 
 - **Quantile-quantile (q-q) Plots** $\rightarrow$ compare quantiles of two distributions
 
+<center>
 
+<img src="img/image-3.png" alt="Quantile-quantile (q-q) plot">
 
-<div style="text-align:center;">
-    <img src="img/image-3.png" alt="Quantile-quantile (q-q) plot">
-</div>
-
-
+</center>
 
 - **Scatter Plots** $\rightarrow$ show relationships between two variables. "Provides a first look at bivariate data to see clusters of points, outliers, etc."
 
+<center>
 
+<img src="img/image-4.png" alt="Scatter plot">
 
-<div style="text-align:center;">
-    <img src="img/image-4.png" alt="Scatter plot">
-</div>
-
-
+</center>
 
 **Positive and Negative Correlated Data**
 
+<center>
 
+<img src="img/image-5.png" alt="Positive and Negative Correlated Data">
 
-<div style="text-align:center;">
-    <img src="img/image-5.png" alt="Positive and Negative Correlated Data">
-</div>
-
-
+</center>
 
 **Uncorrelated Data**
 
+<center>
 
+<img src="img/image-6.png" alt="Uncorrelated Data">
 
-<div style="text-align:center;">
-    <img src="img/image-6.png" alt="Uncorrelated Data">
-</div>
-
-
+</center>
 
 ### **4. Data Visualization**
 
@@ -183,13 +173,11 @@ $\rightarrow$ maps dimension values to pixels
 - The $m$ dimension values of a record are mapped to $m$ pixels at the corresponding positions in the windows
 - The colors of the pixels reflect the corresponding values
 
+<center>
 
+<img src="img/image-7.png" alt="Pixel-Oriented Visualization Techniques">
 
-<div style="text-align:center;">
-    <img src="img/image-7.png" alt="Pixel-Oriented Visualization Techniques">
-</div>
-
-
+</center>
 
 ---
 
@@ -197,50 +185,40 @@ $\rightarrow$ maps dimension values to pixels
 $\rightarrow$ uses transformations and projections of the data. Some methods include:
 - **Direct (Data) Visualization**
 
+<center>
 
+<img src="img/image-9.png" alt="Direct Data Visualization">
 
-<div style="text-align:center;">
-    <img src="img/image-9.png" alt="Direct Data Visualization">
-</div>
-
-
+</center>
 
 - **Scatterplot and scatterplot matrices**
 
+<center>
 
+<img src="img/image-10.png" alt="Scatterplot and scatterplot matrices">
 
-<div style="text-align:center;">
-    <img src="img/image-10.png" alt="Scatterplot and scatterplot matrices">
-</div>
-
-
+</center>
 
 - **Landscapes** $\rightarrow$ visualizes data as a perspective landscape. The data needs to be transformed into a (possibly artificial) 2D spatial representation which preserves the characteristics of the data
+<center>
 
+<img src="img/image-11.png" alt="Landscapes Visualization">
 
-<div style="text-align:center;">
-    <img src="img/image-11.png" alt="Landscapes Visualization">
-</div>
-
-
+</center>
 
 - **Parallel Coordinates** $\rightarrow$ displays each data item as a polygonal line intersecting axes representing attribute values
 
+<center>
 
+<img src="img/image-12.png" alt="Parallel Coordinates">
 
-<div style="text-align:center;">
-    <img src="img/image-12.png" alt="Parallel Coordinates">
-</div>
+</center>
 
+<center>
 
+<img src="img/image-13.png" alt="Parallel Coordinates">
 
-
-
-<div style="text-align:center;">
-    <img src="img/image-13.png" alt="Parallel Coordinates">
-</div>
-
-
+</center>
 
 ---
 
@@ -248,102 +226,82 @@ $\rightarrow$ uses transformations and projections of the data. Some methods inc
 $\rightarrow$ represents data values as features of icons (e.g., Chernoff faces, stick figures)
 - **Chernoff Faces** $\rightarrow$ uses facial features to represent data dimensions.
 
+<center>
 
+<img src="img/image-14.png" alt="Chernoff Faces">
 
-<div style="text-align:center;">
-    <img src="img/image-14.png" alt="Chernoff Faces">
-</div>
-
-
+</center>
 
 - **Stick Figures** $\rightarrow$ uses stick figures with varying limb angles/lengths to represent data dimensions
 
+<center>
 
+<img src="img/image-15.png" alt="Stick Figures">
 
-<div style="text-align:center;">
-    <img src="img/image-15.png" alt="Stick Figures">
-</div>
-
-
+</center>
 
 **Hierarchical** 
 $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-maps)
 
 - **Dimensional Stacking** $\rightarrow$ partitions the attribute space into 2D subspaces
 
+<center>
 
+<img src="img/image-16.png" alt="Dimensional Stacking">
 
-<div style="text-align:center;">
-    <img src="img/image-16.png" alt="Dimensional Stacking">
-</div>
+</center>
 
+<center>
 
+<img src="img/image-17.png" alt="Dimensional Stacking">
 
-
-
-<div style="text-align:center;">
-    <img src="img/image-17.png" alt="Dimensional Stacking">
-</div>
-
-
+</center>
 
 - **Worlds-within-Worlds**
 
+<center>
 
+<img src="img/image-18.png" alt="Worlds-within-Worlds">
 
-<div style="text-align:center;">
-    <img src="img/image-18.png" alt="Worlds-within-Worlds">
-</div>
-
-
+</center>
 
 - **Tree-Maps** $\rightarrow$ hierarchical partitioning of the screen
 
+<center>
 
+<img src="img/image-19.png" alt="Tree-Maps">
 
-<div style="text-align:center;">
-    <img src="img/image-19.png" alt="Tree-Maps">
-</div>
+</center>
 
+<center>
 
+<img src="img/image-20.png" alt="Tree-Maps">
 
-
-
-<div style="text-align:center;">
-    <img src="img/image-20.png" alt="Tree-Maps">
-</div>
-
-
+</center>
 
 - **InfoCubes** $\rightarrow$ 3D visualization using nested semi-transparent cubes
 
+<center>
 
+<img src="img/image-21.png" alt="InfoCubes">
 
-<div style="text-align:center;">
-    <img src="img/image-21.png" alt="InfoCubes">
-</div>
-
-
+</center>
 
 - **Cone Trees** $\rightarrow$ 3D visualization of hierarchical information
 
+<center>
 
+<img src="img/image-22.png" alt="Cone Trees">
 
-<div style="text-align:center;">
-    <img src="img/image-22.png" alt="Cone Trees">
-</div>
-
-
+</center>
 
 - **Visualizing Complex Data and Relations**
 
+<center>
 
+<img src="img/image-23.png" alt="Visualizing Complex Data">
 
-<div style="text-align:center;">
-    <img src="img/image-23.png" alt="Visualizing Complex Data">
-</div>
-
-
+</center>
 
 ### **5. Measuring Similarity and Dissimilarity**
 - **Similarity** $\rightarrow$ numerical measure of how alike two data objects are. Higher values indicate greater similarity and often falls in the range $[0, 1]$
@@ -352,127 +310,105 @@ $\rightarrow$ partitions data into subspaces (e.g., dimensional stacking, tree-m
 
 **Data Matrix vs. Dissimilarity Matrix** $\rightarrow$ data matrix stores attribute values, while the dissimilarity matrix stores distances between data points
 
+<center>
 
+<img src="img/image-24.png" alt="Data Matrix vs. Dissimilarity Matrix">
 
-<div style="text-align:center;">
-    <img src="img/image-24.png" alt="Data Matrix vs. Dissimilarity Matrix">
-</div>
+</center>
 
+<center>
 
+<img src="img/image-29.png" alt="Data Matrix vs. Dissimilarity Matrix">
 
-
-
-<div style="text-align:center;">
-    <img src="img/image-29.png" alt="Data Matrix vs. Dissimilarity Matrix">
-</div>
-
-
+</center>
 
 **Proximity Measures for Different Attribute Types**
 - **Nominal** $\rightarrow$ simple matching
 
+<center>
 
+<img src="img/image-25.png" alt="Proximity Measures for Nominal Data">
 
-<div style="text-align:center;">
-    <img src="img/image-25.png" alt="Proximity Measures for Nominal Data">
-</div>
-
-
+</center>
 
 - **Binary** $\rightarrow$ contingency table, distance measures (symmetric and asymmetric), Jaccard coefficient
 
+<center>
 
+<img src="img/image-26.png" alt="Proximity Measures for Binary Data">
 
-<div style="text-align:center;">
-    <img src="img/image-26.png" alt="Proximity Measures for Binary Data">
-</div>
+</center>
 
+<center>
 
+<img src="img/image-27.png" alt="Proximity Measures for Binary Data">
 
-
-
-<div style="text-align:center;">
-    <img src="img/image-27.png" alt="Proximity Measures for Binary Data">
-</div>
-
-
+</center>
 
 - **Numeric** $\rightarrow$ standardization (Z-score)
 
+<center>
 
+<img src="img/image-28.png" alt="Proximity Measures for Numeric Data">
 
-<div style="text-align:center;">
-    <img src="img/image-28.png" alt="Proximity Measures for Numeric Data">
-</div>
-
-
+</center>
 
 - **Minkowski Distance**  $\rightarrow$ a general distance measure that includes **Manhattan**, **Euclidean**, and **Supremum** distances as special cases
     - **Euclidean & Manhattan Distance** $\rightarrow$ numeric data comparison
     - **Jaccard Coefficient** $\rightarrow$ binary attribute similarity.
     
 
-    
+    <center>
 
-<div style="text-align:center;">
-    <img src="img/image-30.png" alt="Minkowski Distance">
-</div>
+<img src="img/image-30.png" alt="Minkowski Distance">
 
+</center>
 
+<center>
 
+<img src="img/image-31.png" alt="Minkowski Distance">
 
+</center>
 
-<div style="text-align:center;">
-    <img src="img/image-31.png" alt="Minkowski Distance">
-</div>
+<center>
 
+<img src="img/image-32.png" alt="Minkowski Distance">
 
+</center>
 
+- **Cosine Similarity** $\rightarrow$ text/document similarity. Measures the cosine of the angle between two vectors.
 
+<center>
 
-<div style="text-align:center;">
-    <img src="img/image-32.png" alt="Minkowski Distance">
-</div>
+<img src="img/image-35.png" alt="Cosine Similarity">
 
+</center>
 
+<center>
 
-    - **Cosine Similarity** $\rightarrow$ text/document similarity. Measures the cosine of the angle between two vectors.
+<img src="img/image-36.png" alt="Cosine Similarity">
 
-    
-
-<div style="text-align:center;">
-    <img src="img/image-35.png" alt="Cosine Similarity">
-</div>
-
-
-
-
-
-<div style="text-align:center;">
-    <img src="img/image-36.png" alt="Cosine Similarity">
-</div>
-
-
+</center>
 
 
 - **Ordinal** $\rightarrow$ rank-based methods
 
+<center>
 
+<img src="img/image-33.png" alt="Proximity Measures for Ordinal Data">
 
-<div style="text-align:center;">
-    <img src="img/image-33.png" alt="Proximity Measures for Ordinal Data">
-</div>
+</center>
 
 
 
 - **Mixed Type** $\rightarrow$ weighted formula to combine effects of different attribute types
 
 
+<center>
 
-<div style="text-align:center;">
-    <img src="img/image-34.png" alt="Proximity Measures for Mixed Type Data">
-</div>
+<img src="img/image-34.png" alt="Proximity Measures for Mixed Type Data">
 
+</center>
 
 
 ### **Key Takeaways**
