@@ -53,7 +53,7 @@ $$
     s \approx \sqrt{4.57} \approx 2.14
     $$
 
-Vậy độ lệch chuẩn mẫu của tập dữ liệu trên là khoảng 2.14.
+Vậy **độ lệch chuẩn mẫu của tập dữ liệu** trên là khoảng ***2.14***.
 
 ---
 
@@ -72,9 +72,7 @@ $$
 - $\|\mathbf{B}\|$: Độ dài (norm) của vector $\mathbf{B}$
 - $\cos(\theta)$: Giá trị cosine của góc giữa hai vector $\mathbf{A}$ và $\mathbf{B}$
 
-**Ví Dụ**
-
-Giả sử bạn có hai vector $\mathbf{A}$ và $\mathbf{B}$ như sau:
+**Ví Dụ**: Cho hai vector $\mathbf{A}$ và $\mathbf{B}$ như sau:
 
 $$
 \mathbf{A} = [1, 2, 3]
@@ -128,9 +126,7 @@ $$
 - $m$: Số thuộc tính mà $i$ và $j$ giống nhau
 
 
-**Ví Dụ**
-
-Giả sử bạn có hai phần tử với các thuộc tính như sau:
+**Ví Dụ**: Có hai phần tử với các thuộc tính như sau:
 
 <center>
 
@@ -188,14 +184,16 @@ $$
 - $s$: Số thuộc tính mà $i$ có giá trị 0 và $j$ có giá trị 1
 - $t$: Số thuộc tính mà cả $i$ và $j$ đều có giá trị 0
 
+<center>
+
 | | j = 1 | j = 0 
 | --- | --- | ---- |
 | **i = 1** | q | r |
 | **i = 0** | s | t |
 
-**Ví Dụ**
+</center>
 
-Giả sử bạn có hai phần tử với các thuộc tính binary như sau:
+**Ví Dụ**: Có hai phần tử với các thuộc tính binary như sau:
 
 <center>
 
@@ -286,14 +284,16 @@ $$
 - $x_{jk}$: Giá trị của thuộc tính thứ $k$ của điểm $j$
 - $p$: Tham số điều chỉnh khoảng cách (khi $p = 1$ là khoảng cách Manhattan, khi $p = 2$ là khoảng cách Euclidean)
 
-**Ví Dụ**
+**Ví Dụ**: Có hai điểm với các thuộc tính numeric như sau:
 
-Giả sử bạn có hai điểm với các thuộc tính numeric như sau:
+<center>
 
 | Đối tượng | Thuộc tính 1 | Thuộc tính 2 | Thuộc tính 3 |
 | --- | --- | --- | ---- |
 | A | 1 | 2 | 3 | 
 | B | 4 | 5 | 6 | 
+
+</center>
 
 **Khoảng cách Euclidean giữa A và B**
 
@@ -334,9 +334,9 @@ $$
 - $r_{if}$: Thứ hạng của thuộc tính ordinal $f$ của đối tượng $i$
 - $M_f$: Số lượng thứ hạng có thể có của thuộc tính ordinal $f$
 
-**Ví Dụ**
+**Ví Dụ**: Có ba đối tượng với các thuộc tính ordinal như sau:
 
-Giả sử bạn có ba đối tượng với các thuộc tính ordinal như sau:
+<center>
 
 | Đối tượng | Thuộc tính 1 (Rất kém, Kém, Trung bình, Tốt, Rất tốt) | Thuộc tính 2 (Thấp, Trung bình, Cao) | Thuộc tính 3 (Nhỏ, Vừa, Lớn) |
 | --- | --- | --- | ---- |
@@ -344,7 +344,11 @@ Giả sử bạn có ba đối tượng với các thuộc tính ordinal như sa
 | B | Tốt | Trung bình | Lớn |
 | C | Kém | Thấp | Nhỏ |
 
-Chuyển đổi các thuộc tính ordinal thành thứ hạng:
+</center>
+
+***Chuyển đổi các thuộc tính ordinal thành thứ hạng***
+
+<center>
 
 | Đối tượng | Thuộc tính 1 (1-5) | Thuộc tính 2 (1-3) | Thuộc tính 3 (1-3) |
 | --- | --- | --- | ---- |
@@ -352,7 +356,11 @@ Chuyển đổi các thuộc tính ordinal thành thứ hạng:
 | B | 4 | 2 | 3 |
 | C | 2 | 1 | 1 |
 
-Chuẩn hóa các giá trị ordinal:
+</center>
+
+***Chuẩn hóa các giá trị ordinal***
+
+<center>
 
 | Đối tượng | Thuộc tính 1 | Thuộc tính 2 | Thuộc tính 3 |
 | --- | --- | --- | ---- |
@@ -360,13 +368,17 @@ Chuẩn hóa các giá trị ordinal:
 | B | $\frac{4-1}{5-1} = \frac{3}{4} = 0.75$ | $\frac{2-1}{3-1} = \frac{1}{2} = 0.5$ | $\frac{3-1}{3-1} = \frac{2}{2} = 1$ |
 | C | $\frac{2-1}{5-1} = \frac{1}{4} = 0.25$ | $\frac{1-1}{3-1} = \frac{0}{2} = 0$ | $\frac{1-1}{3-1} = \frac{0}{2} = 0$ |
 
+</center>
+
 **Kết luận**
 
 - Đối tượng A: Thuộc tính 1 = 0.5, Thuộc tính 2 = 1, Thuộc tính 3 = 0.5
 - Đối tượng B: Thuộc tính 1 = 0.75, Thuộc tính 2 = 0.5, Thuộc tính 3 = 1
 - Đối tượng C: Thuộc tính 1 = 0.25, Thuộc tính 2 = 0, Thuộc tính 3 = 0
 
-### Độ Khác Biệt của Đối Tượng Dữ Liệu Có Nhiều Kiểu Thuộc Tính
+---
+
+### Độ khác biệt của đối tượng dữ liệu có nhiều kiểu thuộc tính
 
 Để tính độ khác biệt giữa hai đối tượng dữ liệu có nhiều kiểu thuộc tính khác nhau, ta sử dụng công thức tổng quát sau:
 
